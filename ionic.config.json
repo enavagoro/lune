@@ -1,0 +1,7 @@
+{
+  "name": "lune",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
