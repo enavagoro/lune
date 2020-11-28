@@ -1,0 +1,47 @@
+<div class="principal-container">
+  <div class="bar">
+    <div class="bar-button-container escritorio">
+      <button class="bar-button" routerLink="/register" routerDirection="root">Regístrate</button>
+    </div>
+  </div>
+
+  <div class="login-form-container">
+    <div class="lune-logo-container">
+        <img class="logo" src="../assets/icon/icono-lune.png">
+    </div>
+    
+    <div class="inputs-container" *ngIf="formStatus==0">
+      <div class="input-container">
+        <input class="input-form" type="email" placeholder="Correo electrónico">
+      </div>
+
+      <div class="login-button-container">
+        <button class="login-button">Continuar</button>
+      </div>
+    </div>
+
+    <div class="" *ngIf="formStatus==1">
+      <div class="input-container">
+        <input class="input-form" type="email" placeholder="Correo electrónico">
+      </div>
+      <div class="input-container">
+        <input class="input-form" type="password" placeholder="Contraseña">
+      </div>
+      <div class="login-button-container">
+        <button class="login-button">Iniciar Sesión</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="link-registro-container celular">
+    <h1 class="link-registro celular" routerLink="/register" routerDirection="root">Regístrate Aquí</h1>
+  </div>
+
+  <div class="colaborator-container">
+    <h1 class="info-colaborator">Artista Colaborador <a class="link-colaborator" style="text-decoration: none;" href="https://www.instagram.com/matiasmanchita/" target="_blank"><b>pame</b></a></h1><div class="colaborator-picture-container"><a href="https://www.instagram.com/matiasmanchita/" target="_blank"><img class="colaborator-picture" src="https://finde.latercera.com/wp-content/uploads/2020/06/Amor-de-gata-2.jpg"></a></div>
+  </div>
+</div>
+
+<div class="animation-layer">
+    
+</div>
